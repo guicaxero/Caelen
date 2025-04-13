@@ -1,0 +1,59 @@
+.container {
+    padding: 20px 20px;
+    background-color: #fdf6e3;
+    font-family: 'IM Fell English SC', serif;
+    color: #2e2b23;
+    line-height: 1.8;
+    max-width: 65vw;
+    margin: 1rem auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    border: 2px solid #b49c79;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container img {
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2.5em;
+    color: #4a2c2a;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+
+  strong {
+    color: #7b2f2f;
+  }
+
+  em {
+    font-style: italic;
+    color: #3a3a3a;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 90vw;
+      padding: 15px 10px;
+      font-size: 1rem;
+      margin-left: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
