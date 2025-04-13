@@ -8,7 +8,8 @@ const Home = () => {
             <strong>Maelis Vellaris</strong> carrega segredos, cicatrizes e uma jornada que ainda está longe do fim.
             </em></p>  
             <img 
-                src="../../public/Maelis.jpg"
+                src="/Maelis.jpg"
+                alt="Maelis Verallis"
             />
         </div>
               

@@ -18,7 +18,7 @@ const AppRoutes =  () => {
             />
             <Routes>
                 <Route 
-                    path="/" element={<Home/>}
+                    path="*" element={<Home/>}
                 />
                 <Route 
                     path="/historia" element={<Lore/>}
