@@ -1,12 +1,20 @@
-# React + Vite
+# 📖 História de Maelis Verallis - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação feita com **React + JavaScript**, utilizando **React Router DOM**, criada com **Vite**, com o objetivo de contar a história de uma personagem de forma interativa e visual.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
-## Expanding the ESLint configuration
+## 📚 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Navegação entre páginas usando React Router DOM
+- Estrutura de rotas para capítulos da história
+- Componentes reutilizáveis e organizados
+- Layout limpo e responsivo
+
+
