@@ -5,6 +5,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Lore from "../pages/Lore";
 import Prision from "../pages/Prision";
 import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
+import WaterdeepMap from "../pages/Map/Map";
 
 
 const AppRoutes =  () => {
@@ -14,7 +15,8 @@ const AppRoutes =  () => {
             links={[
                 {to: "/", text: "Inicio"},
                 {to: "/historia", text: "Historia"},
-                {to: "/prisao", text: "Prisão"}
+                {to: "/prisao", text: "Prisão"},
+                {to: "/map", text: "Mapa"}
             ]}
             />
             <AudioPlayer/>
@@ -27,6 +29,9 @@ const AppRoutes =  () => {
                 />
                 <Route 
                     path="/prisao" element={<Prision/>}
+                />
+                <Route
+                    path="/map" element={<WaterdeepMap/>}
                 />
             </Routes>
         </Router>
