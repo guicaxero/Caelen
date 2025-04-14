@@ -4,6 +4,7 @@ import Home from "../pages/Home"
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Lore from "../pages/Lore";
 import Prision from "../pages/Prision";
+import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 
 
 const AppRoutes =  () => {
@@ -16,6 +17,7 @@ const AppRoutes =  () => {
                 {to: "/prisao", text: "Prisão"}
             ]}
             />
+            <AudioPlayer/>
             <Routes>
                 <Route 
                     path="*" element={<Home/>}

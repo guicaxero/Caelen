@@ -1,0 +1,127 @@
+.player-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+
+.player-container button {
+    display: flex;
+    gap: 5px;
+    background-color: #7b2f2f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 500;
+}
+
+.player-container button:hover {
+    background-color: #3a3a3a;
+}
+
+.player-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.player-container input[type="range"] {
+    width: 100%;
+    margin-top: 6px;
+    accent-color: #7b2f2f;
+}
+
+.toggle-player {
+    display: none;
+}
+  
+@media (max-width: 768px) {
+    .toggle-player {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        background-color: #7b2f2f;
+        color: white;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        z-index: 1100;
+        display: block;
+      }
+      
+      .player-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 90%;
+        max-width: 350px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(123, 47, 47, 0.95);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 14px;
+        backdrop-filter: blur(6px);
+        z-index: 1000;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .player-container.show {
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(-50%, -50%);
+      }
+      
+      .player-container label {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-weight: 500;
+        color: white;
+      }
+      
+      .player-container input[type="range"] {
+        width: 100%;
+        margin: 0;
+        accent-color: white;
+      }
+      
+      .player-container button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: white;
+        color: #7b2f2f;
+        border: none;
+        padding: 6px 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      
+      .player-container button:hover {
+        background-color: #f0f0f0;
+      }
+}
+
+  
