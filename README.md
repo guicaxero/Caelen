@@ -1,6 +1,6 @@
-# 📖 História de Maelis Verallis - React App
+# 📖 História de Caelen Thalanor - React App
 
-Uma aplicação feita com **React + JavaScript**, utilizando **React Router DOM**, criada com **Vite**, com o objetivo de contar a história de uma personagem de forma interativa e visual.
+Uma aplicação feita com **React + JavaScript**, utilizando **React Router DOM**, criada com **Vite**, com o objetivo de contar a história de um personagem de forma interativa e visual.
 
 ## 🚀 Tecnologias Utilizadas
 
