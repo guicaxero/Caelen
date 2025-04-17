@@ -7,6 +7,7 @@ import Prision from "../pages/Prision";
 import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 import WaterdeepMap from "../pages/Map/Map";
 import Bonds from "../pages/Bonds";
+import Underdark from "../pages/Underdark";
 
 
 const AppRoutes =  () => {
@@ -16,6 +17,7 @@ const AppRoutes =  () => {
             links={[
                 {to: "/", text: "Inicio"},
                 {to: "/historia", text: "Historia"},
+                {to: "/underdark", text: "Subterrâneo"},
                 {to: "/bonds", text: "Ligações"}
             ]}
             />
@@ -35,6 +37,9 @@ const AppRoutes =  () => {
                 />
                 <Route
                     path="/bonds" element={<Bonds/>}
+                />
+                <Route
+                    path="/underdark" element={<Underdark/>}
                 />
             </Routes>
         </Router>
