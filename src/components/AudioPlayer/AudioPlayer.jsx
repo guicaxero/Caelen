@@ -11,7 +11,7 @@ export default function HowlPlayer() {
 
   useEffect(() => {
     soundRef.current = new Howl({
-      src: ['/assets/theme.mp3'],
+      src: ['/assets/music.mp3'],
       loop: true,
       volume: volume
     });

@@ -1,47 +1,62 @@
+header {
+  background-color: #2e2a24;  
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Cinzel', serif; 
+  margin-bottom: 30px;
+  text-align: center;
+  border: 2px solid #4a3c29; 
+}
+
 nav {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 10px;
-    background-color: #e8decf;
-    border: 1px solid #b49c79;
-    border-radius: 6px;
-    font-family: 'Cinzel Decorative', cursive;
-    width: fit-content;
-    margin: 0.5rem auto;
-  }
+  margin: 0 auto;
+  padding: 12px 25px;
+  background-color: #4a3c29;
+  border-radius: 8px;
+  width: fit-content;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 2px solid #2d2b1f;
+}
 
 nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #4a2c2a;
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-  }
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #d1c79e; 
+  font-size: 1.2rem;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
 
-  nav a:hover {
-    color: #7b2f2f;
-  }
-
-.default-link {
-  transition: color 0.3s ease;
+nav a:hover {
+  background-color: #8a704e; 
+  color: #fff; 
+  transform: scale(1.05);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .active-link {
-  color: #747474;
+  color: #fff;
+  border-bottom: 3px solid #7b5d4b;
+}
+
+.default-link {
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2em;
+  nav {
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 20px;
   }
 
   nav a {
-    display: inline-block;
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: 1.1rem;
+      font-size: 1rem;
+      margin: 0 12px;
+      padding: 6px 12px;
   }
 }

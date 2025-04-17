@@ -6,6 +6,7 @@ import Lore from "../pages/Lore";
 import Prision from "../pages/Prision";
 import AudioPlayer from "../components/AudioPlayer/AudioPlayer";
 import WaterdeepMap from "../pages/Map/Map";
+import Bonds from "../pages/Bonds";
 
 
 const AppRoutes =  () => {
@@ -15,8 +16,7 @@ const AppRoutes =  () => {
             links={[
                 {to: "/", text: "Inicio"},
                 {to: "/historia", text: "Historia"},
-                {to: "/prisao", text: "Prisão"},
-                {to: "/map", text: "Mapa"}
+                {to: "/bonds", text: "Ligações"}
             ]}
             />
             <AudioPlayer/>
@@ -32,6 +32,9 @@ const AppRoutes =  () => {
                 />
                 <Route
                     path="/map" element={<WaterdeepMap/>}
+                />
+                <Route
+                    path="/bonds" element={<Bonds/>}
                 />
             </Routes>
         </Router>
