@@ -39,7 +39,7 @@ const Underdark = () => {
               Restamos apenas nós três: eu, Fargas e Throgar. Vagando rumo ao nosso objetivo, seguindo pistas cada vez mais tênues.
           </p>
           <p className="lore-text">
-              Chegamos, enfim, ao que acreditávamos ser o <strong>Lago Negro</strong>. Uma vastidão de trevas líquidas, impossível de se ver o outro lado. Fomos surpreendidos por três trogloditas — criaturas imundas, ágeis e brutais. Em fuga, demos de cara com um penhasco profundo. A única rota era um salto desesperado rumo a uma rede de teias gigantescas que se estendia pelas paredes como véus de aranha.
+              Chegamos perto, enfim, ao que acreditávamos ser o <strong>Lago Negro</strong>. Uma vastidão de trevas líquidas, impossível de se ver o outro lado. Fomos surpreendidos por três trogloditas — criaturas imundas, ágeis e brutais. Em fuga, demos de cara com um penhasco profundo. A única rota era um salto desesperado rumo a uma rede de teias gigantescas que se estendia pelas paredes como véus de aranha.
           </p>
           <p className="lore-text">
               A última coisa que me lembro... foram os gritos dos meus companheiros.
